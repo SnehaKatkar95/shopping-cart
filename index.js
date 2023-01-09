@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+import Product from './Product/product.js';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const product = new Product('Mac Kajal', 150, '1', 'black', 'MAC', 'kajal');
