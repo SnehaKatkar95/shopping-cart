@@ -1,7 +1,7 @@
 import Product from './product.js';
 
 class womensProductList {
-  get kurtas() {
+  getKurtas() {
     const kurta = [];
     kurta.push(
       new Product(
@@ -18,7 +18,7 @@ class womensProductList {
     return kurta;
   }
 
-  get sarees() {
+  getSarees() {
     const saree = [];
     saree.push(
       new Product(
