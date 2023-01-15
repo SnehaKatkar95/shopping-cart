@@ -1,3 +1,24 @@
-h1, h2 {
-  font-family: Lato;
+.header {
+  font-size: 25px;
+  color: grey;
+}
+
+.apparels {
+  display: inline;
+}
+
+.mens-apparels {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  background-color: slateblue;
+  color: white;
+}
+
+.womens-apparel {
+  border: 1px solid black;
+  display: inline-block;
+  background-color: darkslategray;
+  color: white;
 }
